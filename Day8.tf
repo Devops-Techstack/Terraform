@@ -59,7 +59,7 @@ resource "aws_autoscaling_group" "example" {
     }
   }
 }
-
+===============
 Loops with for expressions
 
 variable "names" {
@@ -119,7 +119,7 @@ resource "aws_s3_bucket" "terraform_state" {
     prevent_destroy = true
   }
 }
-
+===============
 If-else:
 
 resource "aws_iam_user_policy_attachment" "full_access" {
