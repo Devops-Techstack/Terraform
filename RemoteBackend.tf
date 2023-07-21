@@ -5,7 +5,7 @@ terraform {
       key            = "global/s3/terraform.tfstate"
       region         = "us-east-2"
 
-      # Replace this with your DynamoDB table name!
+      # Replace this with your DynamoDB table name!  #hello-world
       dynamodb_table = "ddevops-techstack21"
       encrypt        = true
     }
